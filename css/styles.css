@@ -1,6 +1,6 @@
 html {
- position: relative;
- min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 body {
@@ -14,17 +14,13 @@ h4 {
   font-size: 1.8rem;
   text-decoration: underline;
   text-underline-position: under;
-  text-decoration-color: #FFC312;
+  text-decoration-color: #ffc312;
 }
 
 h5 {
   text-decoration: underline;
   text-underline-position: under;
-  text-decoration-color: #FFC312;
-}
-
-.rotate {
- transform: rotate(-90deg);
+  text-decoration-color: #ffc312;
 }
 
 .rewards-layout {
@@ -57,24 +53,24 @@ h5 {
   cursor: grab;
 }
 
-.box[data-reward="r1"] {
+.box[data-reward='r1'] {
   background-color: #f1c40f;
 }
 
-.box[data-reward="r2"] {
+.box[data-reward='r2'] {
   background-color: #1abc9c;
 }
 
-.box[data-reward="r3"] {
+.box[data-reward='r3'] {
   background-color: #e74c3c;
 }
 
-.box[data-reward="r4"] {
-  background-color: #3B3B98;
+.box[data-reward='r4'] {
+  background-color: #3b3b98;
 }
 
-.box[data-reward="r5"] {
-  background-color: #6D214F;
+.box[data-reward='r5'] {
+  background-color: #6d214f;
 }
 
 #categories [data-category] {
