@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Miles Front-end Challenge by Varun.</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="controls mb-3">
+      <button class="btn btn-sm btn-primary" id="undo">Undo</button>
+      <button class="btn btn-sm btn-primary" id="redo">Redo</button>
+      <button class="btn btn-sm btn-dark float-right" id="clear">Clear</button>
+      <button class="btn btn-sm btn-danger mr-1 float-right" id="save">Save</button>
+    </div>
+
+    <div class="row rewards-layout">
+
+      <div class="col-md-2 rewards">
+        <h4>Rewards</h4>
+
+        <div class="box" data-reward="r1">
+          <span class="remove">x</span>
+          <span>R1</span>
+        </div>
+        <div class="box" data-reward="r2">
+          <span class="remove">x</span>
+          <span>R2</span>
+        </div>
+        <div class="box" data-reward="r3">
+          <span class="remove">x</span>
+          <span>R3</span>
+        </div>
+        <div class="box" data-reward="r4">
+          <span class="remove">x</span>
+          <span>R4</span>
+        </div>
+        <div class="box" data-reward="r5">
+          <span class="remove">x</span>
+          <span>R5</span>
+        </div>
+      </div>
+
+      <div class="col-md-10">
+        <h4 class="text-center mb-4">Categories</h4>
+        <div class="row" id="categories">
+
+          <!-- Categories -->
+          <div class="col-md-2" data-category="c1">
+            <h5>C1</h5>
+          </div>
+
+          <div class="col-md-2" data-category="c2">
+            <h5>C2</h5>
+          </div>
+
+          <div class="col-md-2" data-category="c3">
+            <h5>C3</h5>
+          </div>
+
+          <div class="col-md-2" data-category="c4">
+            <h5>C4</h5>
+          </div>
+
+          <div class="col-md-2" data-category="c5">
+            <h5>C5</h5>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+    <footer class="footer mb-4">
+      <div class="container">
+        <span class="text-muted">Miles Front-end Challenge by Varun.</span>
+      </div>
+    </footer>
+
+  </div>
+  <script src="js/sortable.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
